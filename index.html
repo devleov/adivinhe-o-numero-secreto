@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinhe o número secreto!</title>
+</head>
+<body>
+    
+    <h1>Adivinhe o número secreto!</h1>
+    <p id="msg"></p>
+    <input style="width: 200px;" type="number" id="chute" placeholder="Insira um número de 1-100">
+    <button id="btn-send-num">Enviar número.</button>
+
+    <h2>Palpites:</h2>
+    <ul id="ul"></ul>
+
+    <h3>Rodadas:</h3>
+    <ul id="winners"></ul>
+
+    <button onclick="novoJogo()">Clique aqui para começar o jogo.</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
